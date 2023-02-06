@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+      "target": "ES2015", // 指定编译后的版本
+      "module": "ES2015", // 指定编译后的模块化方案
+      "strict": true, // 开启严格模式
+      "noEmitOnError": true // 编译错误时不生成js文件
+    }
+}

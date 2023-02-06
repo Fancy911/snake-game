@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ts贪吃蛇</title>
+</head>
+<body>
+    <h1>贪吃蛇</h1>
+
+    <!-- 创建游戏的主容器 -->
+    <div id="main">
+        <!-- 设置游戏的主舞台 -->
+        <div id="stage">
+            <!-- 设置蛇的容器 -->
+            <div id="snake">
+                <!-- 蛇是一节一节方块组成的，每吃到一个事物，小方块多一个，每一个div就是蛇的一节身体 -->
+                <div></div>
+            </div>
+            <!-- 设置食物 -->
+            <div id="food">
+                <!-- 通过4个小div设置食物的造型 -->
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+          
+        <!-- 设置游戏的积分面板 -->
+        <div id="score-panel">
+            <div>
+                SCORE: <span id="score">0</span>
+            </div>
+            <div>
+                LEVEL: <span id="level">1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
